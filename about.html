@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontawesome-6-pro@6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet/responsive.css" />
+  </head>
+  <body>
+    <div class="wraper-main">
+     <!-- HEADER -->
+     <div class="responsive-menu">
+        <div class="resposive-menu-inner">
+            <div class="responsive-logo">
+                <a href="index.php">
+                    <img src="assets/images/logo.png">
+                </a>
+            </div>
+            
+            <div class="header-navigations">
+              <ul>
+                <li>
+                  <a href="index.html">Home <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li>
+                 <a href="about.html">About </a>
+                </li>
+                <li>
+                  <a class="#" href="menuresturant.html">Menu <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="menuresturant.html">MENU RESTURANT </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Pages <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul>
+                    <li>
+                     <a href="gallery.html">GALLERY</a>
+                    </li>
+                    <li>
+                      <a href="faq.html">FAQS</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="bloggrid.html">Blog <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="bloggrid.html">BLOG GRID</a>
+                    </li>
+                    <li>
+                      <a href="blogsingle.html">BLOG SINGLE</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Shop <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            </div>
+            <div class="header-icon">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="cross-btn">
+                <a href="javascript:;"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+    </div>
+      <header>
+        <div class="header-top">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 d-none d-lg-block">
+              <div class="time-header">
+                <p>
+                  <i class="fa-thin fa-clock"></i>OPENING HOURS : <span>08:00 AM - 09:00 PM</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 d-none d-lg-block">
+              <div class="header-icon">
+                <ul class="d-flex justify-content-center">
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 d-none d-lg-block">
+              <div class="header-location d-flex">
+                <p>
+                  <span>
+                    <i class="fa-solid fa-location-dot"></i> LOCATION : </span> 55 MAIN STREET, NEW YORK
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="row">
+            <div class="col-lg-2 col-lg-2 col-xl-2 col-xxl-3 col-sm-6 col-6">
+              <div class="header-logo">
+                <a href="#">
+                  <img src="assets/images/logo.png" />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-xl-8 d-none d-lg-block col-xxl-6">
+              <div class="header-navigations">
+                <nav>
+                  <ul class="d-flex">
+                    <li>
+                      <a href="index.html">Home <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html">About </a>
+                    </li>
+                    <li>
+                      <a class="#" href="menuresturant.html">Menu <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="menuresturant.html">MENU RESTURANT </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Pages <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="gallery.html">GALLERY</a>
+                        </li>
+                        <li>
+                          <a href="faq.html">FAQS</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="bloggrid.html">Blog <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="bloggrid.html">BLOG GRID</a>
+                        </li>
+                        <li>
+                          <a href="blogsingle.html">BLOG SINGLE</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Shop <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contacts</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-md-6 d-lg-none d-block col-6">
+              <div class="hamburger d-flex">
+                <a href="#"><i class="fa-regular fa-bars d-flex justify-content-center align-content-center"></i></a>
+            </div>
+            </div>
+            <div class="col-lg-3 col-lg-2 col-xl-2 col-xxl-3 h-100 col-sm-6 col-6 d-none d-lg-block">
+              <div class="header-end-cart d-flex">
+                <div class="cart-icon">
+                  <i class="fa-regular fa-cart-shopping"></i>
+                </div>
+                <div class="header-btn">
+                  <a href="#">Book a table</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+        <!-- ABOUT-SECTION -->
+        <section class="about-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="abt-bg-content">
+                            <h1>About Us</h1>
+                            <p>Home / About</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT-KAFFEEN -->
+        <section class="about-kaffen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="abt-sec-content">
+                            <div class="abt-head">
+                                <h4>About Kaffen</h4>
+                                <h1>New London Coffee Founded For Extraordinary Test</h1>
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error voluptate
+                                    accusantium doloremque laudantium, totam rem aperiam eaque
+                                    ipsa quae abillo inventore veritatis
+                                </p>
+                            </div>
+                            <div class="abt-sec-icon-box-m">
+                                <div class="abt-icon-bx d-flex">
+                                    <div class="abt-icon">
+                                        <img src="assets/images/abt-i.png" />
+                                    </div>
+                                    <div class="abt-con">
+                                        <h4>Natural Coffee Beans</h4>
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error voluptate
+                                            accusantium doloremque
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="abt-icon-bx d-flex">
+                                    <div class="abt-icon">
+                                        <img src="assets/images/abt-2i.png" />
+                                    </div>
+                                    <div class="abt-con ms-2">
+                                        <h4>100% ISO Certification</h4>
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error voluptate
+                                            accusantium doloremque
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="herobanner-a1">
+                                <a href="#">Our menu <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="aout-kaffen-img">
+                            <img src="assets/images/a-2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--counter-web -->
+      <section class="counter-web">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="counter-box-main">
+              <div class="icon-box-counter">
+                <i class="far fa-gem"></i>
+              </div>
+              <div class="counter-icon-content">
+                <h1>
+                  <span class="prg-count">256</span>+
+                </h1>
+                <h4>Premium Clients</h4>
+                <p>Sed ut perspiciatis unde</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="counter-box-main">
+              <div class="icon-box-counter">
+                <i class="far fa-gem"></i>
+              </div>
+              <div class="counter-icon-content">
+                <h1>
+                  <span class="prg-count">36</span>+
+                </h1>
+                <h4>Premium Clients</h4>
+                <p>Sed ut perspiciatis unde</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="counter-box-main">
+              <div class="icon-box-counter">
+                <i class="far fa-gem"></i>
+              </div>
+              <div class="counter-icon-content">
+                <h1>
+                  <span class="prg-count">753</span>+
+                </h1>
+                <h4>Premium Clients</h4>
+                <p>Sed ut perspiciatis unde</p>
+              </div>
+            </div>
+           </div>
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="counter-box-main">
+              <div class="icon-box-counter">
+                <i class="far fa-gem"></i>
+              </div>
+              <div class="counter-icon-content">
+                <h1>
+                  <span class="prg-count">100</span>+
+                </h1>
+                <h4>Premium Clients</h4>
+                <p>Sed ut perspiciatis unde</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+        <!-- bg-video -->
+        <section class="bg-video1">
+            <div class="video-container">
+                <!-- Placeholder for the YouTube player -->
+                <div id="player"></div>
+
+                <!-- Play button -->
+            </div>
+            <div class="play-button" onclick="playVideo()">
+                <i class="fas fa-play"></i>
+            </div>
+        </section>
+        <!-- ABOUT CAKES -->
+         <section class="cakes-abt">
+         <div class="container">
+            <div class="row">
+                <div class="main-cake-box">
+                <div class="col-lg-3 col-12">
+                    <div class="cake-box">
+                        <img src="assets/images/service_icon1.png">
+                        <div class="cake-con">
+                        <h1>Birthday Cakes</h1>
+                        <p>Sed ut perspiciatis unde</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="cake-box">
+                        <img src="assets/images/service_icon2.png">
+                        <div class="cake-con">
+                        <h1>Birthday Cakes</h1>
+                        <p>Sed ut perspiciatis unde</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="cake-box">
+                        <img src="assets/images/service_icon1.png">
+                        <div class="cake-con">
+                        <h1>Birthday Cakes</h1>
+                        <p>Sed ut perspiciatis unde</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="cake-box">
+                        <img src="assets/images/service_icon1.png">
+                        <div class="cake-con">
+                        <h1>Birthday Cakes</h1>
+                        <p>Sed ut perspiciatis unde</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+        </section>
+        <!-- CREW-SECTION -->
+      <section class="crew">
+        <div class="container">
+          <div class="row "data-aos="fade-down">
+            <div class="col-lg-12 col-md-12">
+              <div class="isotopes-heading">
+                <h3>EXPERIENCE TEAM MEMBER</h3>
+                <h1>Meet Our Professional Chefs</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row"data-aos="fade-down">
+            <div class="col-lg-3 col-md-6">
+              <div class="team-main-box">
+                <div class="team-content">
+                  <h3>Anthony J. Bowman</h3>
+                  <p>Senior Chefs</p>
+                </div>
+                <div class="team-img">
+                  <img src="assets/images/team1.jpg" />
+                  <div class="team-content-hover">
+                    <div class="team-c-box">
+                    <h4>bowmankf@gmail.com</h4>
+                    <p>+012(345)678 99</p>
+                    </div>
+                    <div class="team-icon">
+                      <ul class="d-flex justify-content-center">
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-main-box">
+                <div class="team-content">
+                  <h3>Kenny V. Gonzalez</h3>
+                  <p>Senior Chefs</p>
+                </div>
+                <div class="team-img">
+                  <img src="assets/images/team2.jpg" />
+                  <div class="team-content-hover">
+                    <div class="team-c-box">
+                    <h4>bowmankf@gmail.com</h4>
+                    <p>+012(345)678 99</p>
+                    </div>
+                    <div class="team-icon">
+                      <ul class="d-flex justify-content-center">
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-main-box">
+                <div class="team-content">
+                  <h3>Joseph M. Lawrence</h3>
+                  <p>Senior Chefs</p>
+                </div>
+                <div class="team-img">
+                  <img src="assets/images/team3.jpg" />
+                  <div class="team-content-hover">
+                    <div class="team-c-box">
+                    <h4>bowmankf@gmail.com</h4>
+                    <p>+012(345)678 99</p>
+                  </div>
+                    <div class="team-icon">
+                      <ul class="d-flex justify-content-center">
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-main-box">
+                <div class="team-content">
+                  <h3>Charles K. Smith</h3>
+                  <p>Senior Chefs</p>
+                </div>
+                <div class="team-img">
+                  <img src="assets/images/team4.jpg" />
+                  <div class="team-content-hover">
+                    <div class="team-c-box">
+                    <h4>bowmankf@gmail.com</h4>
+                    <p>+012(345)678 99</p>
+                  </div>
+                    <div class="team-icon">
+                      <ul class="d-flex justify-content-center">
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- BRAND PICS -->
+        <section class="brand-pics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-pics-main d-flex justify-content-center">
+                            <div class="brand-pics">
+                                <img src="assets/images/b1.png" />
+                            </div>
+                            <div class="brand-pics">
+                                <img src="assets/images/b2.png" />
+                            </div>
+                            <div class="brand-pics">
+                                <img src="assets/images/b3.png" />
+                            </div>
+                            <div class="brand-pics">
+                                <img src="assets/images/b4.png" />
+                            </div>
+                            <div class="brand-pics">
+                                <img src="assets/images/b5.png" />
+                            </div>
+                            <div class="brand-pics">
+                                <img src="assets/images/b6.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider-client -->
+        <section class="slider-client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="isotopes-heading">
+                            <h3>CUSTOMER FEEDBACK</h3>
+                            <h1>What Our Clients Say</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row slider-client-s">
+                    <div class="slider-slide">
+                        <div class="slider-col">
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                            <div class="slider-client-main">
+                                <div class="slider-img">
+                                    <img src="assets/images/rev4.jpg" />
+                                </div>
+                                <div class="slider-client-content">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis natus error luptatem
+                                        accusantium doloremque laudantium totam remriam eaque quae
+                                        abillo
+                                    </p>
+                                    <h2>James M. London</h2>
+                                    <h6>Lawyer</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END-IMAGES-SLIDER -->
+        <section class="end-images-slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="slider-img-end">
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst1.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst2.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst3.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst4.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst5.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-img position-relative">
+                                <img src="assets/images/inst6.jpeg" />
+                                <div class="slide-content position-absolute">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- END-FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="footer-t">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="for-1">
+                  <img src="assets/images/logo.png" />
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus, luctus nec. </p>
+                  <div class="fot-social-icons">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="fot-2">
+                  <h1>Working Hours</h1>
+                  <div class="dates-fot">
+                    <ul>
+                      <li>
+                        <h6>
+                          <i class="fas fa-circle"></i>Sunday-Thursday
+                        </h6>
+                        <p>08:00 am - 09:00pm</p>
+                      </li>
+                      <li>
+                        <h6>
+                          <i class="fas fa-circle"></i>Only Friday
+                        </h6>
+                        <p>08:00 am - 09:00pm</p>
+                      </li>
+                      <li>
+                        <h6>
+                          <i class="fas fa-circle"></i>Saturday
+                        </h6>
+                        <p>Closed</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="fot-2">
+                  <h1>Contact Us</h1>
+                  <ul>
+                    <li>
+                      <h6>
+                        <i class="fas fa-map-marker-alt"></i>Location :
+                      </h6>
+                      <p>55 Main Street, New York</p>
+                    </li>
+                    <li>
+                      <h6>
+                        <i class="fas fa-envelope"></i>Email Address :
+                      </h6>
+                      <p>
+                        <a href="#">kaffendev@gmail.com</a>
+                      </p>
+                    </li>
+                    <li>
+                      <h6>
+                        <i class="fas fa-phone"></i>Phone Number:
+                      </h6>
+                      <p>
+                        <a href="#">+012 (345) 678 99</a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="fot-pics">
+                  <h1>Follow Instagram</h1>
+                  <div class="fot-imgs ">
+                    <ul class="d-flex">
+                       <li><img src="assets/images/inst1.jpeg" /></li>
+                       <li><img src="assets/images/inst1.jpeg" /></li>
+                       <li><img src="assets/images/inst1.jpeg" /></li>
+                    </ul>
+                  </div>
+                  <div class="fot-imgs d-flex">
+                    <ul class="d-flex">
+                      <li><img src="assets/images/inst1.jpeg" /></li>
+                      <li><img src="assets/images/inst1.jpeg" /></li>
+                      <li><img src="assets/images/inst1.jpeg" /></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="footer-bottom d-flex justify-content-center">
+                <p>Copyright © 2022 Kaffen. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/webjs/web.js"></script>
+</body>
+
+</html>
