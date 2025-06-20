@@ -1,0 +1,1612 @@
+/* FOR DESKTOP */
+@media only screen and (min-width: 100px) and (max-width: 1399px) {
+  .hero-h h1 {
+    font-size: 100px;
+  }
+
+  .hero-h h4 {
+    font-size: 17px;
+    margin-left: 46px;
+  }
+
+  .hero-h h4::before {
+    left: -37px;
+    top: 11px;
+  }
+
+  .img-box-pop {
+    width: 47%;
+  }
+
+  .pop-end-content {
+    margin-left: 81px;
+  }
+
+  .popular .herobanner-a1 a {
+    margin-left: 80px;
+  }
+
+  .service-c h3 {
+    font-size: 19px;
+  }
+
+  .input-box i {
+    top: 39%;
+    font-size: 13px;
+  }
+
+  .services-head h1 {
+    font-size: 45px;
+  }
+
+  .services-info .herobanner-a1 a {
+    padding: 14px 25px;
+    border-radius: 4px;
+  }
+
+  .slider-client-content p {
+    font-size: 14px;
+    margin: 0px 20px;
+    margin-bottom: 16px;
+  }
+
+  .slider-client-content i {
+    font-size: 15px;
+    margin: 30px 0px;
+  }
+
+  .coffe-sec .herobanner-a1 {
+    margin: 0px 0px 0px 353px;
+  }
+
+  .herobanner-content {
+    top: 29%;
+  }
+
+  .abt-head h1 {
+    font-size: 38px;
+  }
+
+  .abt-head p {
+    font-size: 16px;
+    width: 82%;
+  }
+
+  .abt-icon {
+    margin-right: -30px;
+  }
+
+  .abt-bg-content h1 {
+    font-size: 81px;
+  }
+
+  .menu-k-price h6::before {
+    width: 324%;
+    left: -374%;
+  }
+
+  .menu-k-price h6 {
+    margin-left: 118px;
+  }
+
+  .coffe-secr .herobanner-a1 {
+    margin-left: 300px;
+  }
+
+  .our-blog h1 {
+    font-size: 34px;
+  }
+
+  .coffe-secg .herobanner-a1 {
+    margin-left: 300px;
+  }
+
+  .coffe-secb .herobanner-a1 {
+    margin-left: 300px;
+  }
+
+  .main-blog-sin-h {
+    left: 12%;
+    top: -33%;
+  }
+
+  .blog-sing-head2 h1 {
+    font-size: 52px;
+    width: 68%;
+  }
+
+  .blog-single {
+    margin-top: 310px;
+  }
+
+  .blog-head {
+    margin: -20px 423px 12px 0px;
+  }
+
+  .blog-m-s {
+    width: 140%;
+    margin: 0px -60px;
+  }
+
+  .blog--black-box p::before {
+    left: -7%;
+  }
+
+  .contact-box {
+    padding: 90px 50px;
+  }
+
+  .form-in input {
+    width: 231px;
+  }
+
+  .sec-con-form form {
+    width: 84%;
+  }
+
+  .sec-con-form form button {
+    margin: 0px 0px 0px 293px;
+  }
+
+  .abt-bg-content p {
+    margin-left: 10px;
+  }
+}
+
+/* FOR LAPTOP */
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+  .time-header {
+    font-size: 10px;
+  }
+
+  .isotopes-main-img {
+    margin: 0px 10px;
+  }
+
+  .isotop-image img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .img-contentg {
+    bottom: 2%;
+    left: 7%;
+  }
+
+  .header-icon ul li a {
+    font-size: 12px;
+  }
+
+  .header-location {
+    font-size: 10px;
+  }
+
+  .header-btn a {
+    font-size: 10px;
+    padding: 6px 21px;
+  }
+
+  .header-navigations nav ul li a {
+    font-size: 11px;
+  }
+
+  .header-navigations nav ul li a i {
+    font-size: 7px;
+  }
+
+  .cart-icon i {
+    font-size: 13px;
+  }
+
+  .hero-h h1 {
+    font-size: 57px;
+  }
+
+  .herobanner-a2 a {
+    font-size: 11px;
+    padding: 10px 18px;
+  }
+
+  .herobanner-a1 a {
+    font-size: 11px;
+    padding: 10px 18px;
+  }
+
+  .herobanner-img img {
+    height: 500px;
+  }
+
+  .hero-h h4 {
+    font-size: 11px;
+    margin: 0px 36px;
+  }
+
+  .hero-h h4::before {
+    left: -29px;
+    top: 6px;
+    width: 4%;
+  }
+
+  .img-box-pop {
+    width: 37%;
+  }
+
+  .pop-end-content {
+    margin: 0px;
+  }
+
+  .pop-end-content h5 {
+    font-size: 15px;
+  }
+
+  .pop-end-content h1 {
+    font-size: 45px;
+  }
+
+  .pop-end-content p {
+    font-size: 13px;
+  }
+
+  .popular .herobanner-a1 a {
+    margin-left: 0px;
+    padding: 8px 19px;
+  }
+
+  .img-menu-content h3 {
+    font-size: 20px;
+  }
+
+  .input-box {
+    width: 44%;
+    height: 57px;
+  }
+
+  .reserv-btn form button {
+    padding: 10px 28px;
+    font-size: 12px;
+  }
+
+  .services-head h1 {
+    font-size: 35px;
+  }
+
+  .services-head p {
+    font-size: 14px;
+  }
+
+  .slider-client-content p {
+    font-size: 11px;
+  }
+
+  .blog-content-n h2 {
+    font-size: 19px;
+  }
+
+  .blog-calender p {
+    font-size: 13px;
+  }
+
+  .blog-comments p {
+    color: #ffffff9c;
+    font-size: 13px;
+  }
+
+  .blog-calender p i {
+    margin-right: 7px;
+  }
+
+  .coffe-sec .herobanner-a1 {
+    margin: 0px 0px 0px 273px;
+  }
+
+  .abt-head h1 {
+    font-size: 32px;
+  }
+
+  .abt-head p {
+    font-size: 13px;
+  }
+
+  .abt-con p {
+    font-size: 13px;
+  }
+
+  .abt-con h4 {
+    font-size: 19px;
+  }
+
+  .abt-bg-content h1 {
+    font-size: 67px;
+  }
+
+  .abt-bg-content p {
+    margin-left: 4px;
+  }
+
+  .menu-k-price h6 {
+    margin-left: 48px;
+    font-size: 19px;
+    margin-top: 6px;
+  }
+
+  .menu-k-price h6::before {
+    left: -356%;
+    top: 43%;
+  }
+
+  .our-blog h1 {
+    font-size: 28px;
+  }
+
+  .contact-box {
+    padding: 60px 19px;
+  }
+
+  .sec-con-form {
+    margin: 0px 0px;
+  }
+
+  .form-in input {
+    width: 186px;
+    margin-left: 10px;
+  }
+
+  .input-box-2 {
+    margin: 20px -8px;
+  }
+
+  .input-box-2 li i {
+    left: 85%;
+    font-size: 15px;
+    top: 34%;
+  }
+
+  .sec-con-form form button {
+    margin: 0px 0px 0px 187px;
+  }
+
+  .main-blog-sin-h {
+    left: 0%;
+  }
+
+  .blog-m-s {
+    margin: 0px -130px;
+    width: 180%;
+  }
+
+  .blog--black-box h4 {
+    font-size: 20px;
+  }
+
+  .blog--black-box p::before {
+    left: -9%;
+  }
+
+  .blog-p {
+    font-size: 14px;
+  }
+
+  .blog-s-list ul li {
+    font-size: 15px;
+  }
+}
+
+/* FOR TABLET */
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+  .header-logo img {
+    width: 47%;
+  }
+
+  .isotopes-p1 {
+    width: 47%;
+  }
+
+  .header-end-cart {
+    gap: 17px;
+  }
+
+  .header-btn a {
+    padding: 6px 13px;
+    border-radius: 3px;
+  }
+
+  .header-logo img {
+    width: 47%;
+  }
+
+  .header-end-cart {
+    gap: 17px;
+  }
+
+  .header-btn a {
+    padding: 6px 13px;
+    border-radius: 3px;
+  }
+
+  .img-content h3 {
+    font-size: 16px;
+  }
+
+  .img-content1 h3 {
+    font-size: 14px;
+  }
+
+  .pop-end-content {
+    margin: 0px 0px;
+  }
+
+  .pop-end-content h1 {
+    font-size: 34px;
+  }
+
+  .pop-end-content p {
+    font-size: 12px;
+  }
+
+  .pop-end-content h1 {
+    font-size: 34px;
+  }
+
+  .pop-end-content {
+    margin: 0px 0px;
+  }
+
+  .img-content1 h4 {
+    font-size: 18px;
+    margin: 0px 12px;
+  }
+
+  .isotopes-heading h1 {
+    font-size: 30px;
+  }
+
+  .ser-main {
+    margin: 110px 0px 0px 80px;
+  }
+
+  .services-info {
+    margin: 0px 0px 0px 80px;
+  }
+
+  .services-sec {
+    padding: 80px 0px;
+  }
+
+  .play-button i {
+    padding: 30px 40px;
+    font-size: 22px;
+  }
+
+  .bg-video {
+    height: 370px;
+  }
+
+  .icon-box-counter i {
+    font-size: 18px;
+    margin: 2px 0px;
+  }
+
+  .counter-icon-content h1 {
+    font-size: 37px;
+    margin: 8px 0px;
+  }
+
+  .counter-icon-content h4 {
+    font-size: 20px;
+  }
+
+  .counter-icon-content p {
+    font-size: 10px;
+  }
+
+  section.counter-web {
+    padding: 66px 0px;
+  }
+
+  .slider-client-content p {
+    font-size: 12px;
+    margin: 0px 50px;
+    margin-bottom: 10px;
+  }
+
+  .header-bottom {
+    padding: 8px 0px;
+  }
+
+  .header-logo img {
+    width: 30%;
+  }
+
+  .header-top {
+    padding: 9px 0px;
+  }
+
+  .menu-box-main {
+    width: 50%;
+  }
+
+  .img-menu-content {
+    margin: 0px 17px;
+  }
+
+  .menu-main-coffe {
+    margin: 0px 0px 0px 69px;
+  }
+
+  .img-menu-content h6 {
+    font-size: 24px;
+  }
+
+  .img-menu-content h6 span {
+    font-size: 20px;
+  }
+
+  .isotopes-btns ul li a {
+    font-size: 12px;
+    padding: 8px 18px;
+  }
+
+  section.coffe-menu .isotopes-heading {
+    margin: 0px 0px;
+  }
+
+  .main-services-box {
+    width: 215px;
+    height: 210px;
+  }
+
+  .service-c h3 {
+    font-size: 16px;
+  }
+
+  .service-c p {
+    font-size: 11px;
+  }
+
+  .img-service-box img {
+    width: 61%;
+    padding: 0px 15px;
+    height: 67px;
+  }
+
+  .services-head h1 {
+    font-size: 26px;
+    margin: 0px 0px 8px 0px;
+  }
+
+  .services-head h5 {
+    font-size: 14px;
+    margin: 4px 0px;
+  }
+
+  .services-head p {
+    font-size: 12px;
+    margin: 10px 0px 21px 0px;
+  }
+
+  .service-content {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .services-iso {
+    margin-bottom: 30px;
+  }
+
+  .herobanner-a1 {
+    margin: 0px 0px;
+  }
+
+  .coffe-sec .herobanner-a1 {
+    margin: 14px 0px 0px 190px;
+  }
+
+  .our-blog p {
+    font-size: 10px;
+  }
+
+  .blog-img img {
+    height: 300px;
+  }
+
+  section.our-news {
+    padding: 80px 0px;
+  }
+
+  section.form-section {
+    padding: 0px 0px 31px 0px;
+  }
+
+  .head-reservation p {
+    font-size: 12px;
+  }
+
+  .crew {
+    padding: 80px 0px;
+  }
+
+  .coffe-menu {
+    padding: 80px 0px;
+  }
+
+  .img-menu-content p {
+    font-size: 11px;
+  }
+
+  .for-1 img {
+    width: 34%;
+    margin: 0px 0px 14px 0px;
+  }
+
+  .for-1 p {
+    font-size: 12px;
+  }
+
+  .fot-2 h6 {
+    font-size: 13px;
+  }
+
+  .dates-fot ul li p {
+    font-size: 12px;
+  }
+
+  .fot-2 h1 {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .fot-pics h1 {
+    margin: -2px 0px 12px 2px;
+  }
+
+  .fot-2 ul li a {
+    font-size: 10px;
+  }
+
+  .fot-2 ul li p {
+    font-size: 10px;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+  }
+
+  section.about-bgr {
+    height: 300px;
+  }
+
+  .abt-bg-content {
+    margin: 120px 0px;
+  }
+
+  section.about-bgg {
+    height: 300px;
+  }
+
+  section.about-bgf {
+    height: 300px;
+  }
+
+  section.about-bgb-1 {
+    height: 300px;
+  }
+
+  section.about-bgco {
+    height: 300px;
+  }
+
+  .accordion-item button h1 {
+    font-size: 13px;
+    margin: 0px 0px;
+  }
+
+  .faq-i-c p {
+    font-size: 10px;
+  }
+
+  .acordian-faq-m {
+    width: 100%;
+  }
+
+  section.accordian-faqs {
+    padding: 80px;
+  }
+
+  .img-faq-a {
+    width: 255%;
+  }
+
+  .blog-sing-head2 h1 {
+    font-size: 30px;
+  }
+
+  .main-blog-sin-h {
+    left: -12%;
+    top: -15%;
+  }
+
+  .blog-head p {
+    font-size: 10px;
+  }
+
+  .blog-head a {
+    font-size: 10px;
+  }
+
+  .blog-single {
+    margin: 150px 0px 0px 0px;
+  }
+
+  .blog-single {
+    height: 500px;
+  }
+
+  .blog-m-s {
+    width: 680%;
+    margin: 0px -250px;
+  }
+
+  .blog--black-box h4 {
+    font-size: 18px;
+  }
+
+  .blog-single-form .inp1 li {
+    font-size: 14px;
+  }
+
+  .blog-single-form .inp1 li input {
+    margin-right: 10px;
+  }
+
+  .contact-box {
+    padding: 50px 97px;
+    margin-bottom: 12px;
+  }
+
+  .sec-con-form form {
+    width: 104%;
+  }
+
+  .contact-sec-form {
+    padding: 70px 30px;
+    margin: 0px 39px 72px 39px;
+  }
+
+  .m-contact {
+    padding: 90px 0px;
+  }
+
+  .input-box-2 {
+    margin: 20px 2px;
+  }
+
+  .form-in input {
+    width: 203px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  ul.form-in {
+    gap: 5px;
+  }
+
+  .coffe-secr .herobanner-a1 {
+    margin: 2px 0px 0px 190px;
+  }
+
+  .our-blog h1 {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .dinner-menu-k {
+    padding: 50px 0px 150px 0px;
+  }
+
+  .dinner-menu-k .isotopes-heading {
+    margin: 0px 0px;
+    margin-bottom: 40px;
+  }
+
+  .coffe-secg .herobanner-a1 {
+    margin: 2px 0px 0px 190px;
+  }
+
+  .coffe-secb .herobanner-a1 {
+    margin: -9px 0px 0px 140px;
+  }
+
+  .brand-pics img {
+    width: 194%;
+    margin: 0px -20px;
+    height: 70px;
+  }
+
+  .con-map iframe {
+    height: 550px;
+  }
+
+  section.about-bg {
+    height: 320px;
+  }
+
+  .abt-bg-content {
+    margin: -20px 0px;
+  }
+
+  .about-kaffen {
+    padding: 60px 0px 0px 0px;
+  }
+
+  .aout-kaffen-img {
+    padding: 80px 0px;
+  }
+
+  .aout-kaffen-img img {
+    margin: 0px 49px;
+  }
+
+  .bg-video1 {
+    height: 300px;
+    margin: 40px 51px;
+  }
+
+  .main-cake-box {
+    padding: 70px 0px;
+  }
+
+  .cake-box img {
+    width: 62%;
+    padding: 0px 20px;
+    height: 68px;
+  }
+
+  .cake-box h1 {
+    font-size: 16px;
+  }
+
+  .cake-box p {
+    font-size: 12px;
+  }
+
+  .cake-box {
+    margin: 0px 11px;
+  }
+
+  .cakes-abt {
+    padding-bottom: 50px;
+  }
+
+  .aout-kaffen-img img {
+    width: 86%;
+    height: 450px;
+  }
+
+  .abt-sec-content {
+    margin: 0px 47px;
+  }
+
+  .img-menu-content h3 {
+    font-size: 15px;
+  }
+
+  .menu-box-main.item {
+    width: 50%;
+  }
+
+  .img-menu-content {
+    margin: 0px 0px;
+  }
+
+  .img-menu1 img {
+    margin-right: 11px;
+    max-width: 43%;
+  }
+
+  section.isotopes-section {
+    padding: 70px 0px;
+  }
+
+  .coffe-secr {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .acordian-faq-m button.accordion-button {
+    padding: 10px 21px;
+  }
+
+  .accordion-item button.accordion-button::before {
+    top: 10px;
+    right: 14px;
+    font-size: 18px;
+  }
+}
+
+/* MOBILE SIZE LANDSCAPE */
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  .hero-h h1 {
+    font-size: 50px;
+  }
+
+  .herobanner-content {
+    top: 27%;
+  }
+
+  .herobanner-img img {
+    height: 440px;
+  }
+
+  .hero-h {
+    margin-bottom: 10px;
+  }
+
+  .herobanner-a1 a {
+    font-size: 10px;
+    padding: 6px 15px;
+  }
+
+  .isotopes-btns ul {
+    gap: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .img-contentg {
+    bottom: 7%;
+  }
+
+  .herobanner-a2 a {
+    font-size: 10px;
+    padding: 6px 15px;
+  }
+
+  .isotopes-p1 {
+    width: 100%;
+  }
+
+  .popular-catogories-m {
+    justify-content: center;
+  }
+
+  .pop-end-content {
+    margin: 20px 0px 0px 40px;
+  }
+
+  .popular .herobanner-a1 a {
+    margin: -16px 0px 0px 40px;
+  }
+
+  .popular {
+    padding: 170px 0px;
+  }
+
+  .pop-end-content h1 {
+    font-size: 23px;
+    margin: 10px 0px;
+  }
+
+  .popular {
+    padding: 220px 0px 150px 0px;
+  }
+
+  .img-menu1 img {
+    margin: 0px 11px;
+    max-width: 45%;
+  }
+
+  .menu-main-coffe {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .img-menu-content h3 {
+    font-size: 18px;
+  }
+
+  .img-menu-content p {
+    font-size: 13px;
+    margin-bottom: 21px;
+    margin-top: 30px;
+  }
+
+  .img-menu-content h6 span {
+    font-size: 23px;
+  }
+
+  .menu-box1 {
+    justify-content: center;
+  }
+
+  .menu-box-main.item {
+    width: 100%;
+  }
+
+  .isotopes-section .isotopes-heading {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .isotopes-section .isotopes-btns {
+    margin: unset;
+  }
+
+  .isotopes-btns ul li a {
+    font-size: 11px;
+    padding: 10px 6px;
+  }
+
+  .isotopes-heading h1 {
+    margin-bottom: 10px;
+  }
+
+  .crew {
+    padding: 40px 0px;
+  }
+
+  .input-box {
+    font-size: 13px;
+    padding: 6px 8px;
+    height: 35px;
+  }
+
+  section.form-section {
+    padding: 0px 0px 50px 0px;
+  }
+
+  .reservation-center-box {
+    height: 360px;
+  }
+
+  .services-img img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .services-iso {
+    gap: 15px;
+    margin-bottom: 11px;
+  }
+
+  .m-main-seer {
+    justify-content: center;
+  }
+
+  .ser-main {
+    margin: 90px 0px;
+  }
+
+  .services-sec {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .slider-client-content {
+    margin: 0px 33px;
+  }
+
+  .slider-client-main {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .services-info {
+    margin: 0px 7px;
+  }
+
+  .counter-icon-content h4 {
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+
+  .coffe-sec .herobanner-a1 {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .our-blog {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .coffe-secr .herobanner-a1 {
+    margin: -10px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .coffe-secg .herobanner-a1 {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .coffe-secb-1 .herobanner-a1 {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .coffe-sec .herobanner-a1 {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .our-blog p {
+    font-size: 8px;
+  }
+
+  .hamburger {
+    justify-content: end;
+    margin-right: 19px;
+  }
+
+  .abt-head h4 {
+    font-size: 10px;
+  }
+
+  .abt-head h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+
+  .abt-head p {
+    font-size: 11px;
+  }
+
+  .abt-icon-bx {
+    margin: 20px 0px;
+  }
+
+  .aout-kaffen-img img {
+    margin: 0px 3px;
+    width: 99%;
+  }
+
+  .bg-video1 {
+    margin: 30px 30px;
+  }
+
+  .cake-box {
+    margin: 70px 0px;
+  }
+
+  section.brand-pics {
+    padding: 0px 0px;
+  }
+
+  .brand-pics-main {
+    gap: 32px;
+  }
+
+  .brand-pics img {
+    width: 150%;
+    margin: 0px -6px;
+  }
+
+  .crew {
+    padding: 0px 0px;
+  }
+
+  .cake-box img {
+    width: 21%;
+    height: 69px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .cake-box h1 {
+    font-size: 23px;
+  }
+
+  .cake-box {
+    margin: 30px 0px;
+  }
+
+  .abt-sec-content {
+    margin: 0px 0px;
+  }
+
+  .cake-con {
+    text-align: center;
+  }
+
+  .faq-i-c p {
+    font-size: 10px;
+    margin: 0px 10px;
+  }
+
+  .accordion-body {
+    flex-direction: column;
+  }
+
+  .img-faq-a {
+    width: 90%;
+    margin: 0px 10px;
+  }
+
+  .main-blog-sin-h {
+    left: 4%;
+    top: -23%;
+  }
+
+  .blog-sing-head2 h1 {
+    width: 28%;
+  }
+
+  .blog-head {
+    margin-left: -595px;
+  }
+
+  .blog-m-s {
+    width: 80%;
+    margin: 0px 30px;
+  }
+
+  section.blog-b2 {
+    margin: 0px 0px;
+  }
+
+  .blog--black-box h4 {
+    font-size: 15px;
+  }
+
+  .blog--black-box {
+    padding: 20px 20px;
+  }
+
+  .blog--black-box p {
+    font-size: 11px;
+  }
+
+  .blog--black-box p::before {
+    left: -16%;
+    top: 32%;
+  }
+
+  ul.form-in {
+    flex-direction: column;
+  }
+
+  .sub-inp input {
+    height: 52px;
+    border-radius: 8px;
+    margin-top: 11px;
+  }
+
+  .form-in input {
+    width: 100%;
+    height: 51px;
+  }
+
+  .input-box-2 {
+    margin: 4px 0px;
+  }
+
+  .sec-con-form form button {
+    margin: 0px 70px;
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .contact-box {
+    margin: 8px 40px;
+  }
+
+  .contact-box p {
+    font-size: 13px;
+  }
+
+  .contact-box-content {
+    width: 160%;
+    margin: 0px -40px;
+  }
+
+  .hamburger {
+    margin: 0px 20px;
+  }
+
+  .abt-bg-content h1 {
+    font-size: 31px;
+    margin-top: 120px;
+  }
+
+  section.about-bgr {
+    height: 340px;
+    margin-bottom: 30px;
+  }
+
+  .kefeen-m-c-img img {
+    margin: -60px 0px 50px 0px;
+  }
+
+  .kefeen-m-c-img {
+    margin-top: 50px;
+  }
+
+  .dinner-menu-k {
+    padding: 0px 0px;
+  }
+
+  .kaffen-m-c {
+    margin: 0px 0px 70px 0px;
+  }
+
+  .menu-k-price h6 {
+    width: 32%;
+    margin-right: 10px;
+  }
+
+  .crew .isotopes-heading {
+    margin-bottom: 50px;
+  }
+
+  .herobanner-btns {
+    display: unset;
+  }
+
+  section.counter-web {
+    padding: 40px 94px;
+    background: #090c0f;
+  }
+
+  .counter-icon-content h1 {
+    text-align: -webkit-center;
+  }
+
+  .counter-icon-content h4 {
+    text-align: center;
+  }
+
+  .team-img {
+    width: 70%;
+  }
+
+  .team-main-box {
+    margin: 0px 30px 50px 30px;
+  }
+}
+
+/* FOR-POTRAIT MOBILE */
+@media only screen and (min-width: 100px) and (max-width: 575px) {
+  .herobanner-btns {
+    display: unset;
+  }
+  .slide-img img {
+    height: 300px;
+}
+section.end-images-slider {
+  margin-bottom: 50px;
+}
+section.our-news {
+  padding: 0px 0px 30px 0px;
+}
+.new-blog-box {
+  margin-bottom: 30px;
+}
+  .hero-h h1 {
+    margin-bottom: 10px;
+    font-size: 38px;
+  }
+
+  .img-content h3 {
+    font-size: 14px;
+  }
+
+  .img-content1 h4 {
+    font-size: 14px;
+  }
+
+  .pop-end-content {
+    margin: 20px 0px 0px 6px;
+  }
+
+  .popular .herobanner-a1 a {
+    margin: 0px 10px;
+  }
+
+  .herobanner-btns {
+    display: unset;
+  }
+
+  .coffe-menu .isotopes-heading h1 {
+    font-size: 25px;
+  }
+
+  .isotopes-btns ul li a {
+    margin: 0px 4px;
+    font-size: 10px;
+    padding: 4px 2px;
+    border-radius: 2px;
+  }
+
+  .img-menu-content h6 {
+    font-size: 20px;
+  }
+
+  .crew .isotopes-heading {
+    margin-top: 30px;
+  }
+
+  .crew .isotopes-heading h1 {
+    font-size: 27px;
+  }
+
+  .isotopes-heading h3 {
+    font-size: 12px;
+  }
+
+  .input-box i {
+    left: 87%;
+    top: 30%;
+    font-size: 11px;
+  }
+
+  .reservation-center-box {
+    height: 310px;
+  }
+
+  .services-head h1 {
+    font-size: 24px;
+  }
+
+  .services-head p {
+    font-size: 10px;
+    margin: unset;
+  }
+
+  .services-info .herobanner-a1 a {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+
+  .main-ser-box2 {
+    gap: 13px;
+  }
+
+  .m-main-seer {
+    gap: 13px;
+  }
+
+  .slider-client-content p {
+    font-size: 13px;
+  }
+
+  .slider-client-content i {
+    margin: 16px 0px;
+  }
+
+  .slider-client .isotopes-heading {
+    margin: 0px 0px;
+  }
+
+  section.counter-web {
+    padding: 40px 94px;
+    background: #090c0f;
+  }
+
+  .counter-icon-content h1 {
+    text-align: -webkit-center;
+  }
+
+  .counter-icon-content h4 {
+    text-align: center;
+  }
+
+  .reserv-btn form button {
+    padding: 10px 20px;
+  }
+
+  .counter-icon-content p {
+    text-align: center;
+  }
+
+  .main-cake-box {
+    padding: 40px 0px;
+  }
+
+  section.about-bgr {
+    height: 300px;
+  }
+
+  .menu-k-price h6 {
+    width: 24%;
+  }
+
+  .kaffen-m-c-con p {
+    font-size: 10px;
+  }
+
+  .kaffen-m-c-con h3 {
+    font-size: 18px;
+  }
+
+  .isotopes-heading h1 {
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
+
+  section.accordian-faqs .isotopes-heading {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .acordian-faq-m .accordion-item {
+    width: 120%;
+  }
+
+  .acordian-faq-m {
+    margin: 0px -20px;
+  }
+
+  .blog-sing-head2 h1 {
+    font-size: 19px;
+    width: 23%;
+    margin-left: 20px;
+  }
+
+  .main-blog-sin-h {
+    left: 0%;
+  }
+
+  .blog-m-s h1 {
+    font-size: 19px;
+  }
+
+  .blog-s-list ul li {
+    font-size: 13px;
+  }
+
+  .blog-single {
+    height: 450px;
+  }
+
+  .sec-con-form form button {
+    margin: 0px 50px;
+  }
+
+  .contact-box {
+    margin: 8px 10px;
+  }
+
+  .counter-box-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .counter-icon-content {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .team-icon ul li a {
+    padding: 4px 7px;
+    font-size: 15px;
+  }
+
+  .team-c-box h4 {
+    font-size: 15px;
+  }
+
+  .team-c-box p {
+    font-size: 11px;
+  }
+
+  .main-cake-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .isotopes-main-img {
+    margin: unset;
+  }
+
+  .isotop-image {
+    margin: 8px 0px;
+  }
+
+  .cake-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
